@@ -1,11 +1,11 @@
-import { Typography } from "@mui/material"
+import { Box} from "@mui/material";
+import { HomepageBanner, HomepageProject } from "../../components/organisms";
 
 export const HomePage = () => {
     return (
-        <Typography
-            sx={{
-                textAlign: 'center'
-            }}
-        >Home Page</Typography>
+        <Box>
+            <HomepageBanner />
+            <HomepageProject />
+        </Box>
     )
 }
